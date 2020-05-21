@@ -1,4 +1,7 @@
 etch-a-sketch
+allows user to sketch lines on a "sketchpad" in browser by moving mouse over the pad
+
+basic logic:
 
 set fixed width x height (1024 x 1024px ???)
 

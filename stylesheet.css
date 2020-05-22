@@ -1,0 +1,32 @@
+/* 
+#container is set as the grid container 
+(using display:grid), which makes it the 
+parent element of all grid items
+
+any direct descendants of the grid container
+are called grid items (any children of a grid item
+are NOT themselves grid items) class=item are the
+grid items in this case
+*/
+#container
+{
+    display: grid;
+    width: 512px;
+    height: 512px;
+    /*
+    grid-template-columns: set using JS
+    grid-template-rows: set using JS
+    */
+
+    /* add these?
+    column-gap: 1px;
+    row-gap: 1px;
+    */
+}
+
+.item
+{
+    background-color: lightgray;
+    width: auto;
+    height: auto;
+}
